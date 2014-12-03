@@ -113,7 +113,7 @@ header {
   padding: 1em;
 }
 header nav {
-  background: rgba(0,0,0,.5);
+  background: ;
   margin: -1em;
   padding: 1em;
 }
@@ -140,11 +140,14 @@ header a:first-child {
 .resources nav .resources {
   background: #399fd3;
 }
-
+/* HERO */
 .hero {
-  background: #2f3d4a;
+  background: #2f3d4b;
   margin-top: -1em;
   padding: 1em 0;
+}
+.hero a {
+  color:#999595;
 }
 .hero h1 {
   color: #fff;
