@@ -108,7 +108,7 @@ img {
 }
 
 header {
-  background: #2f3d4a;
+  background: #000;
   margin: -1em 0 1em;
   padding: 1em;
 }
@@ -122,7 +122,7 @@ header h1 {
 }
 
 header a {
-  color: #fff;
+  color: #fedd44;
   margin: -1em 0;
   padding: 7px 10px 7px 10px;
 }
@@ -138,22 +138,22 @@ header a:first-child {
 .members nav .members,
 .post nav .blog,
 .resources nav .resources {
-  background: #399fd3;
+  background: #444;
 }
 /* HERO */
 .hero {
-  background: #2f3d4b;
+  background: #7ab5d6;
   margin-top: -1em;
   padding: 1em 0;
 }
 .hero a {
-  color:#999595;
+  color:#000;
 }
 .hero h1 {
-  color: #fff;
+  color: #444;
 }
 .hero .site-width {
-  color: #fff;
+  color: #444;
 }
 
 .blog-container {
