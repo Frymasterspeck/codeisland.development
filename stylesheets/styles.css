@@ -3,20 +3,21 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
+  background: #e5e5e5;
   margin: 0;
   padding: 1em 0;
   font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
 }
 
 div.site-width{
+	color: #444;
 	width: 90%;
 	max-width: 40rem;
 	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#444;
   margin:0 0 20px;
 }
 
@@ -33,15 +34,15 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#444;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#444;
 }
 
 a {
-  color:#39c;
+  color:#7ab5d6;
   font-weight:400;
   text-decoration:none;
 }
@@ -108,10 +109,12 @@ img {
 }
 
 header {
-  background: #000;
+  background:#444;
   margin: -1em 0 1em;
   padding: 1em;
+  border-bottom: 3px solid #cf1b14;
 }
+
 header nav {
   background: ;
   margin: -1em;
@@ -121,11 +124,17 @@ header h1 {
   float: left;
 }
 
+header img {
+  margin-top: -1em;
+  margin-right: 2em;
+}
+
 header a {
-  color: #fedd44;
+  color: #e5e5e5;
   margin: -1em 0;
   padding: 7px 10px 7px 10px;
 }
+
 header a:first-child {
   font-weight: bold;
   margin-right: 1em;
@@ -138,21 +147,33 @@ header a:first-child {
 .members nav .members,
 .post nav .blog,
 .resources nav .resources {
-  background: #444;
+  text-decoration: underline;
 }
+
 /* HERO */
 .hero {
   background: #7ab5d6;
   margin-top: -1em;
   padding: 1em 0;
+  border-bottom: 3px solid #cf1b14;
 }
-.hero a {
-  color:#000;
-}
-.hero h1 {
+
+.hero p, ul, ol {
   color: #444;
 }
-.hero .site-width {
+
+.hero a {
+  color:#69579c;
+}
+
+.hero img {
+  float: right;
+  padding: 10px;
+  margin-top: -3px;
+  margin-right: -50px;
+}
+
+.hero h1, h2, h3 {
   color: #444;
 }
 
@@ -160,7 +181,7 @@ header a:first-child {
   padding: 1em 0 2em;
 }
 strong {
-  color:#222;
+  color:#444;
   font-weight:700;
 }
 
