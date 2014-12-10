@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  background: #e5e5e5;
   margin: 0;
   padding: 1em 0;
   font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -118,15 +117,14 @@ header {
 header nav {
   background: ;
   margin: -1em;
-  padding: 1em;
+  padding: 0 1em 8px 1em;
 }
 header h1 {
   float: left;
 }
 
 header img {
-  margin-top: -1em;
-  margin-right: 2em;
+  margin-bottom: -16px;
 }
 
 header a {
@@ -146,13 +144,14 @@ header a:first-child {
 .projects nav .projects,
 .members nav .members,
 .post nav .blog,
-.resources nav .resources {
+.resources nav .resources,
+.faq nav .faq {
   text-decoration: underline;
 }
 
 /* HERO */
 .hero {
-  background: #7ab5d6;
+  background: #e5e5e5;
   margin-top: -1em;
   padding: 1em 0;
   border-bottom: 3px solid #cf1b14;
@@ -197,8 +196,8 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
-  height:1px;
+  background:#cf1b14;
+  height:3px;
   margin:0 0 20px;
 }
 
