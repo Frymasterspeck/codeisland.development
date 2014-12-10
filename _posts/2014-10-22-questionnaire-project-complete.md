@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Candidates Questionnaire Project Complete
+title: Open Data Questionnaire Project Complete
 ---
 
 <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
 
 {{ page.date | date_to_long_string }}
 
-<p><strong>Project: Candidates Questionnaire 
+<p><strong>Project: Open Data Questionnaire 
 <br />STATUS: Complete!</strong></p>
 
 <p>Code Island has completed its first project! We created a <a href="/projects/open-data-questionnaire/">questionnaire asking the Providence mayoral candidates to go "on the record"</a> with their positions on open data...<a href="/projects/open-data-questionnaire/responses/">and they responded</a>. We published the responses, and hopefully, they had an impact on the race.
